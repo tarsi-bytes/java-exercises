@@ -5,6 +5,8 @@ Your task is to write a function which returns the time since
 midnight in milliseconds.
 */
 
+package codewars.level8kyu;
+
 public class Clock {
     public static int Past(int h, int m, int s) {
        int convertHours = h * (60 * 60 * 1000);
